@@ -6,6 +6,7 @@ body{
 
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
+    z-index: 1;
     
 }
 
@@ -15,7 +16,11 @@ body{
   display: flex;
   justify-content: space-between;
   width: 350px;
-  margin-left: 700px;
+  position: absolute;
+  margin-left: 650px;
+  margin-bottom: 50px;
+  z-index: 10;
+  
 }
 
 #yellow {
@@ -23,7 +28,7 @@ body{
     width:50px;
     height:106px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     content: url(https://vignette.wikia.nocookie.net/steven-universe-serie-fanon/images/0/02/Gema_Ambar.png/revision/latest?cb=20170730175840&path-prefix=es);
 }
 #orange {
@@ -32,7 +37,7 @@ body{
     width:50px;
     height:106px;
     position: relative;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-left: -20px;
     content: url(https://vignette.wikia.nocookie.net/universosteven/images/4/4d/Ambar_Gem.png/revision/latest?cb=20160814001901&path-prefix=es);
 }
@@ -41,7 +46,7 @@ body{
     display: inline-block;
     width:50px;
     height:106px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 25px;
     content: url(https://vignette.wikia.nocookie.net/gemcrust/images/b/b2/Sapphire_Lavendulan_Gem.png/revision/latest?cb=20161118214252);
 }
@@ -50,6 +55,8 @@ body{
     display: inline-block;
     width:50px;
     height:106px;
+    margin-top: -20px;
+
     content: url(https://vignette.wikia.nocookie.net/steven-universe/images/c/ca/Army_Amethyst_Gem.png/revision/latest?cb=20170201164422);
 }
 
@@ -61,5 +68,52 @@ p {
 }
 
 
+@media only screen and (max-width: 900px) {
+    
 
+.flex-container {
+    margin-bottom: 30px;
+    margin-left:0;
+}
 
+#yellow {
+display: inline-block;
+    width:50px;
+    height:106px;
+    position: relative;
+    margin-top: 50px;
+}
+
+#orange {
+    display: inline-block;
+        width:50px;
+        height:106px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+ #blue {
+        display: inline-block;
+            width:50px;
+            height:106px;
+            position: relative;
+            margin-top: 50px;
+        }
+#purple {
+            display: inline-block;
+                width:50px;
+                height:106px;
+                position: relative;
+                margin-top: 50px;
+            }
+
+body {
+        background-image: url(https://i.pinimg.com/736x/8a/d3/18/8ad318ead4c2b816543830bd856cc739--thanos-marvel-marvel-villains.jpg);
+        background-repeat: no-repeat;
+        background-size:100%;
+    
+        font-family: 'Courier New', Courier, monospace;
+        color: aliceblue;
+        z-index: 1;
+}
+            
