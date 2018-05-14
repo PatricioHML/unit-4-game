@@ -1,0 +1,65 @@
+
+body{
+	background-image: url(https://am24.akamaized.net/tms/cnt/uploads/2018/04/Infinity-War-Director-Reveals-Why-Thanos-Backstory-Was-Cut-1200x600.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    
+}
+
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin-left: 700px;
+}
+
+#yellow {
+    display: inline-block;
+    width:50px;
+    height:106px;
+    position: relative;
+    margin-top: 100px;
+    content: url(https://vignette.wikia.nocookie.net/steven-universe-serie-fanon/images/0/02/Gema_Ambar.png/revision/latest?cb=20170730175840&path-prefix=es);
+}
+#orange {
+    vertical-align:top;
+    display: inline-block;
+    width:50px;
+    height:106px;
+    position: relative;
+    margin-top: 90px;
+    margin-left: -20px;
+    content: url(https://vignette.wikia.nocookie.net/universosteven/images/4/4d/Ambar_Gem.png/revision/latest?cb=20160814001901&path-prefix=es);
+}
+#blue {
+    vertical-align:top;
+    display: inline-block;
+    width:50px;
+    height:106px;
+    margin-top: 50px;
+    margin-left: 25px;
+    content: url(https://vignette.wikia.nocookie.net/gemcrust/images/b/b2/Sapphire_Lavendulan_Gem.png/revision/latest?cb=20161118214252);
+}
+#purple {
+    vertical-align:top;
+    display: inline-block;
+    width:50px;
+    height:106px;
+    content: url(https://vignette.wikia.nocookie.net/steven-universe/images/c/ca/Army_Amethyst_Gem.png/revision/latest?cb=20170201164422);
+}
+
+
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
